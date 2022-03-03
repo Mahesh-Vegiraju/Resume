@@ -1,0 +1,116 @@
+\documentclass{resume}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+
+\usepackage{fontspec} %
+\setmainfont{Lucida Grande} %
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+
+\usepackage[left=0.5in, top=0.5in, right=0.5in, bottom=0.3in]{geometry}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Mahesh Vegiraju}
+
+\address{
+ email:mvegiraj@ucsc.edu \\
+ in/MaheshVegiraju \\
+ github:Mahesh-Vegiraju 
+}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\large Education}
+
+{\bf University of California, Santa Cruz} \hfill {\bf{Expected --- June 2023}}
+\\ Bachelor of Science Computer Science\hfill {\emph{GPA: 3.5}} 
+\\ Minor in Biology 
+
+  \\ \textbf{Relevant CS Coursework:} Programming Abstractions in Python, Assembly Language \& Computer Systems, Embedded Systems \& C Programming, Data Structures and Algorithms, Computer Architecture, Introduction to Computer Networks, Computer Systems Design, Foundations of Programming Languages, Introduction to Software Engineering
+  \\ \textbf{Relevant Biology Coursework:} General Chemistry I, General Chemistry II, General Chemistry III, Cell \& Molecular Biology, Biology: Development \& Physiology, Genetics 
+\\ \textbf{Involvements:}  Santa Cruz NeuroTech, Cycling Club, Brooks Lab
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\large Experience}
+
+\begin{rSubsection}{Brooks Lab}{\bf{Feburary 2022 - Present}}{Undergraduate Researcher}{Santa Cruz, CA }
+\item Working with long read \& short read simulated data to compare statistical data between the two
+
+\begin{rSubsection}{Acorn Basket Studios}{\bf{June 2019 - August 2019}}{Software Engineering Intern - Game Mechanics}{San Jose, CA }
+\item Helped implement object collision \& procedural generation of the game map
+\item Worked in the ActionScript framework to make the game accessible to a wider audience
+\end{rSubsection}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%    PROJECTS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\large Projects}
+
+ \begin{rSubsection}{Huffman Compression Algorithm}{}{}{}
+\item Implemented Huffman Compression and Decompression in C
+\item Created fundamental data structures including nodes, priority queues and stacks 
+\item Used these fundamental data structures in tandem
+\end{rSubsection}
+
+ \begin{rSubsection}{Content Scraper}{}{}{}
+\item Uses BeautifulSoup to scrape comics and videos from websites
+\item Automatically opens new chapters/episodes in a new window
+\end{rSubsection}
+
+ \begin{rSubsection}{Hamming Encoding}{}{}{}
+\item Implemented the error correction Hamming encoding algorithm in C 
+\item Used data structures like bit vectors and bit matrices
+\end{rSubsection}
+
+ \begin{rSubsection}{Simple Motion Detection}{}{}{}
+\item Implemented a simple motion detection algorithm
+\item Created sliding window Averagerators 
+\end{rSubsection}
+
+ \begin{rSubsection}{Core of PyTorch}{}{}{}
+\item Created a simplified version of the core of PyTorch
+\item Implemented gradients and auto propagation
+\end{rSubsection}
+
+\begin{rSubsection}{Faster Merge Sort}{}{}{}
+\item Made Merge Sort run faster using UNIX and POSIX child processes
+\item Also made a multi-threaded implementation using POSIX threads
+\end{rSubsection}
+
+\begin{rSubsection}{Pintos Project}{}{}{}
+\item Improving the Pintos learning Operating System
+\item Changed the way Pintos puts threads to sleep as to not use busy wait
+\item Implemented a priority ready queue that takes into account processes' priority when scheduling onto the CPU
+\end{rSubsection}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{\large Skills}
+\begin{rSubsection}{Programming Languages}{}{}{}
+\item Python, Java, C, C{}\verb!++!, MIPS Assembly, RISC-V Assembly
+\end{rSubsection}
+
+\begin{rSubsection}{Technologies}{}{}{}
+\item Git, Bash, LaTeX, ActionScript, BeautifulSoup
+\end{rSubsection}
+
+\end{rSection}
+
+
+
+\end{document}
